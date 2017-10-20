@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/about', function(){
 	return "Its about page";
 });
+
+
+Route::get('/tsb-analytics', function(){
+	return "Its Analytics Page";
+});
